@@ -1,18 +1,20 @@
 import wollok.game.*
 
-import example.pepita
+import example.*
 
-program PepitaGame {
-	game.title("Pepita")
+program jorgeGame {
+	sanLorenzo.gana()
+	sanLorenzo.gana()
+	game.title("Jorge")
 	game.height(10)
 	game.width(10)
 
 	// add assets in asset folder, for example, for the background
-  // game.boardGround("fondo2.jpg")
+  	// game.boardGround("fondo2.jpg")
 
 	//
 
-	game.showAttributes(pepita) //Debug
+	game.showAttributes(jorge) //Debug
 
 	game.start()
 }

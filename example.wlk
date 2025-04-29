@@ -1,9 +1,17 @@
-object pepita {
-  var energy = 100
-
-  method energy() = energy
-
-  method fly(minutes) {
-    energy = energy - minutes * 3
+object jorge{
+  var alegria = 10
+  method festejar(){
+    alegria = alegria +1
   }
+
+method alegria() = alegria
+
+}
+
+
+object sanLorenzo{
+  method gana(){
+    jorge.festejar()
+  }
+
 }
