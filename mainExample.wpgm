@@ -3,18 +3,21 @@ import wollok.game.*
 import example.*
 
 program jorgeGame {
-	sanLorenzo.gana()
-	sanLorenzo.gana()
-	game.title("Jorge")
+	//sanLorenzo.gana()
+	//sanLorenzo.gana()
+	//console.println(jorge.alegria())
+	//game.title("Jorge")
 	game.height(10)
-	game.width(10)
+	game.width(15)
+	game.boardGround("azeroth.png")
+	juego.iniciar()
 
 	// add assets in asset folder, for example, for the background
   	// game.boardGround("fondo2.jpg")
 
 	//
 
-	game.showAttributes(jorge) //Debug
+	//game.showAttributes(jorge) //Debug
 
 	game.start()
 }
